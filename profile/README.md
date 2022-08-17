@@ -9,3 +9,5 @@ UCI's architecture has created an abstraction layer between the Logic and the co
 ![image](https://user-images.githubusercontent.com/25716415/185061964-ecb34658-345a-432a-a8ec-821db0f396b0.png)
 
 Read more about UCI [uci.sunbird.org](https://uci.sunbird.org/)
+
+[Software License - MIT](https://uci.sunbird.org/engage/software-license)
