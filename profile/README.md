@@ -1,9 +1,11 @@
-MIT License
+UCI is created with a vision to make the conversation flow creation configurable to a level, that it can be done by program owners, without the intervention of any engineers at all. At the same time, it also envisions reducing the redundant coding required for enabling the same business logic for different channels. 
 
-Copyright (c) 2022 Sunbird Unified Communications Interface (UCI)
+UCI aims to democratize the use of different communication channels such as WhatsApp, Telegram, SMS, email and more across all governance use cases.
 
-Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+![image](https://user-images.githubusercontent.com/25716415/185061819-b180e0fd-bd6d-4bc3-a65e-0a9041055164.png)
 
-The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+UCI's architecture has created an abstraction layer between the Logic and the communication channels (WhatsApp, SMS, etc) and various providers (Like Gupshup, Twilio, etc.). UCI uses an adapter-based abstraction layer. An adapter has to be created for every channel+provider that is to be used with UCI. Once contributed, it is available for everyone in the community to leverage.
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+![image](https://user-images.githubusercontent.com/25716415/185061964-ecb34658-345a-432a-a8ec-821db0f396b0.png)
+
+Read more about UCI [uci.sunbird.org](https://uci.sunbird.org/)
